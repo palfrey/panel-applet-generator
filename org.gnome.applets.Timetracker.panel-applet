@@ -1,0 +1,15 @@
+[Applet Factory]
+Id=TimetrackerWidgetFactory
+Location=/home/palfrey/src/timetracker-widget/test-newpanel.py
+Name=Timetracker Applet Factory
+
+[TimetrackerWidget]
+Name=Timetracker Widget
+Description=Track your invested money.
+Icon=invest-applet
+BonoboId=OAFIID:Invest_Applet_Factory
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-applets
+X-GNOME-Bugzilla-Component=invest
+X-GNOME-Bugzilla-Version=3.2.1
+X-GNOME-Bugzilla-OtherBinaries=invest-applet
