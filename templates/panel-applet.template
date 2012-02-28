@@ -1,0 +1,10 @@
+[Applet Factory]
+Id=${name}Factory
+Location=${path}
+Name=${name} Factory
+
+[${name}]
+Name=${name}
+Description=${description}
+Icon=${icon}
+BonoboId=OAFIID:${name}Factory

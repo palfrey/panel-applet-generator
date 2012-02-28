@@ -3,13 +3,8 @@
 import sys
 from gi.repository import Gtk
 from gi.repository import PanelApplet
+from ${name}Applet import applet_factory
 
-def applet_factory(applet, iid, data = None):
-	button = Gtk.Button("It works!")
-	applet.add(button)
-	applet.show_all()
-	return True
-				
 if __name__ == '__main__':	# testing for execution
 	print('Starting factory')
 
@@ -22,4 +17,7 @@ if __name__ == '__main__':	# testing for execution
 		Gtk.main()
 		sys.exit()
 	else:
-		PanelApplet.Applet.factory_main("TimetrackerWidgetFactory", PanelApplet.Applet.__gtype__, applet_factory, None)
+		PanelApplet.Applet.factory_main("${name}Factory",
+				PanelApplet.Applet.__gtype__,
+				applet_factory,
+				None)

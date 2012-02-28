@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gnome.panel.applet.TimetrackerWidgetFactory
-Exec=/home/palfrey/src/timetracker-widget/applet.py
