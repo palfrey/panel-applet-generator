@@ -12,8 +12,7 @@ Options:
   -i ICON, --icon=ICON  Icon (in /usr/share/icons, without the full path)
   -c CATEGORY, --category=CATEGORY
                         Category of the applet (see
-                        http://standards.freedesktop.org/menu-
-                        spec/latest/apa.html for full list)
+                        http://standards.freedesktop.org/menu-spec/latest/apa.html for full list)
   --maintainer=MAINTAINER
                         Maintainer name
   -e EMAIL, --email=EMAIL
