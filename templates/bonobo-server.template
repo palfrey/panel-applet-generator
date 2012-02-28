@@ -3,7 +3,7 @@
 <oaf_info>
 	<oaf_server iid="OAFIID:${name}_Factory"
 		type="exe"
-		location="${path}">
+		location="${scriptRoot}/${name}-factory2.py">
         <oaf_attribute name="repo_ids" type="stringv">
                 <item value="IDL:Bonobo/GenericFactory:1.0"/>
                 <item value="IDL:Bonobo/Unknown:1.0"/>

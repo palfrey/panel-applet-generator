@@ -1,0 +1,13 @@
+Source: ${lowerName}
+Section: gnome
+Priority: extra
+Maintainer: ${maintainer} <${email}>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+#Homepage: <insert the upstream URL, if relevant>
+
+Package: ${lowerName}
+Architecture: any
+Depends: $${shlibs:Depends}, $${misc:Depends}, gir1.2-gtk-3.0 | python-gtk2, gir1.2-panelapplet-4.0 | python-gnomeapplet, gnome-icon-theme, gnome-panel
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

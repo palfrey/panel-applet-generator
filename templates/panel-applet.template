@@ -1,6 +1,6 @@
 [Applet Factory]
 Id=${name}Factory
-Location=${path}
+Location=${scriptRoot}/${name}-factory3.py
 Name=${name} Factory
 
 [${name}]

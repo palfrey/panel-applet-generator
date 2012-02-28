@@ -1,5 +1,1 @@
-*factory*.py
-*.server
-*Applet.py
-*.panel-applet
-*.service
+*.deb

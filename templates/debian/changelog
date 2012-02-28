@@ -1,0 +1,5 @@
+${lowerName} (0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- ${maintainer} <${email}>  ${now}

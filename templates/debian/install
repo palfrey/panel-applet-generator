@@ -1,0 +1,6 @@
+org.gnome.applets.${name}.panel-applet usr/share/gnome-panel/4.0/applets/
+org.gnome.panel.applet.${name}.service usr/share/dbus-1/services/
+${name}-factory2.py usr/lib/gnome-applets
+${name}-factory3.py usr/lib/gnome-applets
+${name}Applet.py usr/lib/gnome-applets
+${name}.server usr/lib/bonobo/servers 
