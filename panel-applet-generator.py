@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from genshi.template.text import NewTextTemplate
 from os import getenv, makedirs, walk, stat, chmod
 from os.path import exists, join, dirname
