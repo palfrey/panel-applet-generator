@@ -21,3 +21,7 @@ Options:
                         Destination folder (default: same as the name)
 
 You'll need at least a name and description, but filling in the rest is a good idea
+
+This script depends on Genshi toolkit for generation of output for the web.
+You can install it by typing:
+ $ sudo apt-get install python-genshi
