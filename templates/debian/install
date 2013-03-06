@@ -4,3 +4,5 @@ ${name}-factory2.py usr/lib/gnome-applets
 ${name}-factory3.py usr/lib/gnome-applets
 ${name}Applet.py usr/lib/gnome-applets
 ${name}.server usr/lib/bonobo/servers 
+${name}-factoryMate.py usr/lib/mate-applets
+${name}-mate.server usr/lib/matecomponent/servers

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<oaf_info>
+	<oaf_server iid="OAFIID:MATE_${name}_Factory"
+		type="exe"
+		location="/usr/lib/mate-applets/${name}-factoryMate.py">
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:MateComponent/GenericFactory:1.0"/>
+                <item value="IDL:MateComponent/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="${name}"/>
+        <oaf_attribute name="description" type="string" value="${description}"/>
+  </oaf_server>
+	<oaf_server iid="OAFIID:MATE_${name}"
+				type="factory"
+				location="OAFIID:MATE_${name}_Factory">
+
+			<oaf_attribute name="repo_ids" type="stringv">
+					<item value="IDL:MATE/Vertigo/MatePanelAppletShell:1.0"/>
+					<item value="IDL:MateComponent/Control:1.0"/>
+					<item value="IDL:MateComponent/Unknown:1.0"/>
+			</oaf_attribute>
+			<oaf_attribute name="name" type="string" value="${name}"/>
+			<oaf_attribute name="description" type="string" value="${description}"/>
+			<oaf_attribute name="panel:category" type="string" value="${category}"/>
+			<oaf_attribute name="panel:icon" type="string" value="${icon}"/>
+	</oaf_server>
+</oaf_info>

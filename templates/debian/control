@@ -8,6 +8,11 @@ Standards-Version: 3.9.2
 
 Package: ${lowerName}
 Architecture: any
-Depends: $${shlibs:Depends}, $${misc:Depends}, gir1.2-gtk-3.0 | python-gtk2, gir1.2-panelapplet-4.0 | python-gnomeapplet, gnome-icon-theme, gnome-panel
+Depends: $${shlibs:Depends},
+         $${misc:Depends},
+         gir1.2-gtk-3.0 | python-gtk2,
+         gir1.2-panelapplet-4.0 | python-gnomeapplet | libmatepanelapplet,
+         gnome-icon-theme | mate-icon-theme,
+         gnome-panel | mate-panel
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
