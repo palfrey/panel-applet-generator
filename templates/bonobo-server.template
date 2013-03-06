@@ -13,7 +13,7 @@
   </oaf_server>
 	<oaf_server iid="OAFIID:${name}"
 				type="factory" 
-				location='OAFIID:${name}_Factory'>
+				location="OAFIID:${name}_Factory">
 
 			<oaf_attribute name="repo_ids" type="stringv">
 					<item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
