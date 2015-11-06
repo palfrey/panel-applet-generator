@@ -1,6 +1,7 @@
 panel-applet-generator
 -----------------------
-Makes all the basic boilerplate for applets that are compatible with both 2.x and 3.x Gnome panels.
+Makes all the basic boilerplate for applets that are compatible with both 2.x
+and 3.x Gnome and MATE panels.
 
 Usage: panel-applet-generator.py [options]
 

@@ -33,9 +33,11 @@ scriptRoot = "/usr/lib/gnome-applets"
 templates = [
 		("applet.py", "%sApplet.py" % name),
 		("bonobo-server.template", "%s.server" % name),
+		("mate-server.template", "%s-mate.server" % name),
 		("dbus-service.template", "org.gnome.panel.applet.%s.service" % name),
 		("factory2.py", "%s-factory2.py" % name),
 		("factory3.py", "%s-factory3.py" % name),
+		("factoryMate.py", "%s-factoryMate.py" % name),
 		("panel-applet.template", "org.gnome.applets.%s.panel-applet" % name),
 		]
 
